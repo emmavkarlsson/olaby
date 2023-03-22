@@ -89,3 +89,48 @@ body {
     display: inline;
     padding: 0 30px;
 }
+
+
+
+
+
+/* footer */
+
+footer {
+    height: 150px;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+footer div {
+    float: left;
+    margin-left: 120px;
+    padding: 10px;
+}
+
+#footer-email a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#footer-social-media i {
+    font-size: 250%;
+    margin: 0 10px 0;
+    color: black;
+}
+
+#footer-social-media i:hover {
+    animation-name: icon-zoom;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+/* creates the level of zoom for icons when hoovering */
+@keyframes icon-zoom {
+    from {
+         transform: scale(1);
+    }
+    to {
+        transform: scale(1.1);
+    }
+}
