@@ -16,7 +16,7 @@ body {
 
 #logo {
     width: 300px;
-    margin: 30px auto 0;
+    margin: 30px auto;
 }
 
 #logo img {
@@ -24,9 +24,10 @@ body {
 }
 
 #menu {
-    margin: 30px auto 0;;
+    margin: 30px auto;
     width: 600px;
-    height: 200px;
+    position: relative;
+    overflow: hidden;
 }
 
 #menu li {
@@ -39,4 +40,60 @@ body {
 #menu a {
     text-decoration: none;
     color: inherit;
+}
+
+/* hero section */
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 600px;
+    width: 100%;
+    background: url(../images/IMG_4890.webp) no-repeat center bottom;
+}
+
+#cover-text {
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    top: 30px;
+    left: 150px;
+
+    color: white;
+
+    position: absolute;
+    text-align: center;
+    padding: 25px;
+}
+
+#cover-text h1 {
+    font-size: 200%;
+    text-transform: uppercase;
+}
+
+#cover-text p {
+    font-size: 150%;
+}
+
+#cover-text h2 {
+    margin-top: 30px;
+}
+
+#cover-text h3 {
+    font-weight: 400;
+    display: inline;
+    padding: 0 30px;
+}
+
+#hem {
+    float: left;
+}
+
+#mobil {
+    float: right;
 }
