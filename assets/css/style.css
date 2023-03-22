@@ -9,6 +9,34 @@
 body {
     font-family: 'Playfair Display', serif;
     font-weight: 400;
+    color: #0c0c0c;
 }
 
+/* logo and navbar */
 
+#logo {
+    width: 300px;
+    margin: 30px auto 0;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#menu {
+    margin: 30px auto 0;;
+    width: 600px;
+    height: 200px;
+}
+
+#menu li {
+    float: left;
+    margin-left: 50px;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
